@@ -11,7 +11,8 @@ export interface Step {
 
 export interface Level {
     level: number;
-    sets: number;
-    repetitions: number;
+    sets?: number;
+    repetitions?: number;
+    seconds?: number;
     notes?: string;
 }
